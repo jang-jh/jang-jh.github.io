@@ -768,6 +768,7 @@ body {
     font-size: 3.5vw;
     display: block;
     letter-spacing: 1.5px;
+    text-align: center;
   }
 }
 .p-main .p-main__top a {
@@ -1721,6 +1722,9 @@ body {
   color: rgb(10, 205, 206);
   margin-right: 15px;
 }
+.p-sub .p-sub__content .p-sub__content__title .p-sub__content__title__workinfo ul li a {
+  color: #fff;
+}
 .p-sub .p-sub__content .p-sub__content__title .p-sub__content__title__workinfo ul li .p-sub__content__title__workinfo__text {
   margin-right: 15px;
 }
@@ -1799,6 +1803,7 @@ body {
   .p-polist .p-polist__list .p-polist__list__content .p-polist__list__content__box {
     gap: 30px;
     row-gap: 80px;
+    justify-content: center;
   }
 }
 .p-polist .p-polist__list .p-polist__list__content .p-polist__list__content__box .p-polist__list__content__title__box__items:hover {
