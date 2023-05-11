@@ -1,0 +1,35 @@
+
+.c-title__big {
+    color: rgba(10, 206, 206, 1);
+    font-size: 5.5rem;
+    transition: color 2s;
+      &.active {
+        color: rgb(255, 255, 255);
+      }
+    @media screen and (max-width:768px) {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        padding-left: 13.9px;
+        font-size: 32px;
+    }
+}
+.c-title__small {
+    p {
+        color: rgb(204, 204, 204);
+        font-size: 2.3rem;
+        font-weight: 400;
+        text-align:justify;
+        line-height: 45px;
+        span {
+            color:rgb(10, 205, 206);
+        }
+        @media screen and (max-width:768px) {
+            display: block;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 30px;
+            padding-top: 20px;
+        }
+    }
+}
